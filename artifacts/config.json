@@ -1,0 +1,30 @@
+{
+  "config": {
+    "seed": 42,
+    "data_source": "keras",
+    "csv_train": "data/mnist_train.csv",
+    "csv_test": "data/mnist_test.csv",
+    "val_size": 0.2,
+    "input_dim": 784,
+    "hidden_units": [
+      256,
+      128
+    ],
+    "num_classes": 10,
+    "dropout_rate": 0.3,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "max_epochs": 30,
+    "loss": "sparse_categorical_crossentropy",
+    "es_monitor": "val_loss",
+    "es_patience": 5,
+    "es_restore_best_weights": true
+  },
+  "environment": {
+    "tensorflow": "2.22.0-rc0",
+    "keras": "3.16.0.dev2026102104",
+    "python": "3.14.5",
+    "numpy": "2.5.4"
+  }
+}

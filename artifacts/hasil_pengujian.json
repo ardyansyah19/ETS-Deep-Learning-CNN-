@@ -1,0 +1,5 @@
+{
+  "selected_model": "Regularisasi (Dropout + ES)",
+  "test_accuracy": 0.9764999747276306,
+  "test_loss": 0.07567480206489563
+}

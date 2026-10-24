@@ -1,0 +1,4 @@
+Folder ini terisi OTOMATIS saat notebook dijalankan (RETRAIN = True):
+model_baseline.keras, model_dropout_earlystopping.keras, model_final.keras,
+history_*.json, config.json, grafik_*.png, hasil_pengujian.json, dll.
+Setelah itu, salin isi folder artifacts/ dari Colab ke folder ini sebelum mengumpulkan ZIP.
