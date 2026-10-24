@@ -36,6 +36,12 @@ Adam, lr = 0.001 · batch 128 · maks 30 epoch · Dropout 0.3 (model regularisas
 Early Stopping: `val_loss`, patience 5, `restore_best_weights=True`.
 Kedua model memakai bobot awal yang identik (dibuktikan dengan `assert` di notebook).
 
+## E. Pengaturan (juga tersimpan di `artifacts/config.json`)
+Seed 42 · split berstrata 80/20 · 784 → 256 → 128 → 10 · ReLU & Softmax · loss `sparse_categorical_crossentropy` ·
+Adam, lr = 0.001 · batch 128 · maks 30 epoch · Dropout 0.3 (model regularisasi) ·
+Early Stopping: `val_loss`, patience 5, `restore_best_weights=True`.
+Kedua model memakai bobot awal yang identik (dibuktikan dengan `assert` di notebook).
+
 ## E. Catatan
 - Data uji hanya dipakai untuk evaluasi akhir model terpilih dan fitur prediksi.
 - Hasil angka dapat sedikit berbeda antar-perangkat/versi TensorFlow; yang dinilai adalah konsistensi dengan `artifacts/` Anda sendiri.
