@@ -57,3 +57,21 @@
     "train_seconds": 11.5
   }
 }
+  "_meta": {
+    "model": "dropout_earlystopping",
+    "epochs_run": 11,
+    "train_seconds": 11.5
+  }
+}
+  "_meta": {
+    "model": "dropout_earlystopping",
+    "epochs_run": 11,
+    "train_seconds": 11.5
+  }
+}
+  "_meta": {
+    "model": "dropout_earlystopping",
+    "epochs_run": 11,
+    "train_seconds": 11.5
+  }
+}
