@@ -12,3 +12,45 @@
     }
   }
 }
+{
+  "selected_model": "Regularisasi (Dropout + ES)",
+  "criterion": "lowest validation loss (tie: highest validation accuracy)",
+  "validation_results": {
+    "Dasar (tanpa Dropout/ES)": {
+      "val_loss": 0.1500994861125946,
+      "val_accuracy": 0.9763333201408386
+    },
+    "Regularisasi (Dropout + ES)": {
+      "val_loss": 0.08028943091630936,
+      "val_accuracy": 0.9777500033378601
+    }
+  }
+}
+{
+  "selected_model": "Regularisasi (Dropout + ES)",
+  "criterion": "lowest validation loss (tie: highest validation accuracy)",
+  "validation_results": {
+    "Dasar (tanpa Dropout/ES)": {
+      "val_loss": 0.1500994861125946,
+      "val_accuracy": 0.9763333201408386
+    },
+    "Regularisasi (Dropout + ES)": {
+      "val_loss": 0.08028943091630936,
+      "val_accuracy": 0.9777500033378601
+    }
+  }
+}
+{
+  "selected_model": "Regularisasi (Dropout + ES)",
+  "criterion": "lowest validation loss (tie: highest validation accuracy)",
+  "validation_results": {
+    "Dasar (tanpa Dropout/ES)": {
+      "val_loss": 0.1500994861125946,
+      "val_accuracy": 0.9763333201408386
+    },
+    "Regularisasi (Dropout + ES)": {
+      "val_loss": 0.08028943091630936,
+      "val_accuracy": 0.9777500033378601
+    }
+  }
+}
