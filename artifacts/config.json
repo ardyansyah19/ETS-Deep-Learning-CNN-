@@ -28,3 +28,17 @@
     "numpy": "2.5.4"
   }
 }
+  "environment": {
+    "tensorflow": "2.22.0-rc0",
+    "keras": "3.16.0.dev2026102104",
+    "python": "3.14.5",
+    "numpy": "2.5.4"
+  }
+}
+  "environment": {
+    "tensorflow": "2.22.0-rc0",
+    "keras": "3.16.0.dev2026102104",
+    "python": "3.14.5",
+    "numpy": "2.5.4"
+  }
+}
